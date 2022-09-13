@@ -11,17 +11,16 @@ In addition to the experimental conditions, "nuisance regressors" are usually ad
 - motion parameters: the 6 realignment parameters + optionally: their squares, derivatives, squares of derivatives (up to 24 regressors)
 - "motion scrubbing": individual regressors for time points with high volume-to-volume movement (see [Siegel et al. 2014](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.22307?casa_token=PIavS_e6XRcAAAAA%3ATbQLoH7RBQ7DkeXGMz8EKX5ha10Nux6g_t3N5nK5kw2nxvLY6SkuMXMwvKi3kKqRD3zBAjxaeRijOA))
 - physiological noise (e.g. heartbeat, breathing): BOLD activity from tissue types that should NOT reflect neural activity (WM, CSF) as nuisance regressors (e.g. aCompCor -> output from fmriprep)
-- global signal: mean BOLD activity in the entire brain (NOTE: highly controversial if this should be regressed out or not -> can usually be left out for task-based data)
 
 After the GLM is estimated (i.e. beta-values for each regressor are estimated), contrasts can be performed that compare the magnitude of the BOLD response between different experimental conditions (or regressors). 
 Contrasts should typically add up to 0. For example, the contrast [1 -1 0 0] compares activity for conditions A > B in a design with 4 regressors. The contrast [0.5 0.5 -1 0] compares the mean of conditions A and B against C. 
 The only exception are contrasts against the implicit baseline. All unmodelled timepoints go into the implicit baseline - typically, these are your "rest" periods. Then, contrasts against the implicit baseline are "low-level" contrasts that test for higher activity during a certain experimental condition than during "rest". These typically sum to 1. For example, [1 0 0 0] tests for higher activity during condition A than during rest. Contrast [0.5 0.5 0 0] tests for higher activity for the mean of conditions A and B than during rest.
 
-Our GitLab contains MATLAB scripts for a typical [first-level analysis](https://gitlab.gwdg.de/cognition-and-plasticity-cbs-mpi/copla-internals/-/tree/master/code/fMRI_analysis/First_level_analysis) using SPM12:
-- [create_condition_matfiles.m](https://gitlab.gwdg.de/cognition-and-plasticity-cbs-mpi/copla-internals/-/blob/master/code/fMRI_analysis/First_level_analysis/create_condition_matfiles.m) creates condition .mat files which define the structure of your experiment - the names, onsets, and durations of each experimental condition for a given run of a given subject. 
+This repository contains MATLAB scripts for a typical first-level analysis using SPM12:
+- *create_condition_matfiles.m* creates condition .mat files which define the structure of your experiment - the names, onsets, and durations of each experimental condition for a given run of a given subject. 
 These can be used in first-level GLM specification (under "Multiple conditions") to simplify design matrix definition. That is, conditions need not be entered individually; only one condition .mat file is necessary for each run of each subject.
 The script assumes that events.tsv files following the BIDS format (https://bids.neuroimaging.io/) have already been created and are stored in each subject's functional folder.
-- [first_level_script.m](https://gitlab.gwdg.de/cognition-and-plasticity-cbs-mpi/copla-internals/-/blob/master/code/fMRI_analysis/First_level_analysis/first_level_script.m) performs a first-level GLM analysis for each subject. The script assumes that you have already created condition .mat files and that your data are in BIDS format.
+- *first_level_script.m* performs a first-level GLM analysis for each subject. The script assumes that you have already created condition .mat files and that your data are in BIDS format.
 
 ---
 created by Philipp Kuhnke (2022)
