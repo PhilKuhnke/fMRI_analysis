@@ -16,7 +16,7 @@ This requires the [gPPI toolbox](https://www.nitrc.org/projects/gppi) (McLaren e
 3. **Participant-level gPPI analysis**:
     * in 'run_gPPI_function.m', specify your experiment-specific settings
     * 'run_gPPI_parallel.m': on a server, run the analysis in parallel for multiple participants (much faster than running consecutively)
-4. **Group-level gPPI analysis**: simply run a (parametric or non-parametric) t-test & threshold (e.g. voxel-wise p<0.05 FWE-corrected; or voxel-wise p<0.001 with cluster-wise p<0.05 FWE-corrected)
+4. **Group-level gPPI analysis**: simply run a (parametric or non-parametric) t-test & threshold (e.g. voxel-wise p<0.05 FWE-corrected; or voxel-wise p<0.001 with cluster-wise p<0.05 FWE-corrected) -> see [Second-Level Analysis](https://github.com/PhilKuhnke/fMRI_analysis/tree/main/3Second_level_analysis)
 
 
 **References**
