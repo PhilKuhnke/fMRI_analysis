@@ -1,0 +1,894 @@
+%-----------------------------------------------------------------------
+% Job saved on 10-Jun-2022 12:32:49 by cfg_util (rev $Rev: 7345 $)
+% spm SPM - SPM12 (7771)
+% cfg_basicio BasicIO - Unknown
+%-----------------------------------------------------------------------
+matlabbatch{1}.spm.stats.fmri_spec.dir = {'C:\Users\ti75iriz\Documents\MATLAB\ds000117\derivatives\first_level\sub-01'};
+matlabbatch{1}.spm.stats.fmri_spec.timing.units = 'secs';
+matlabbatch{1}.spm.stats.fmri_spec.timing.RT = 2;
+matlabbatch{1}.spm.stats.fmri_spec.timing.fmri_t = 33;
+matlabbatch{1}.spm.stats.fmri_spec.timing.fmri_t0 = 17;
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).scans = {
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,1'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,2'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,3'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,4'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,5'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,6'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,7'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,8'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,9'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,10'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,11'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,12'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,13'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,14'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,15'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,16'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,17'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,18'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,19'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,20'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,21'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,22'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,23'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,24'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,25'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,26'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,27'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,28'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,29'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,30'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,31'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,32'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,33'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,34'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,35'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,36'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,37'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,38'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,39'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,40'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,41'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,42'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,43'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,44'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,45'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,46'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,47'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,48'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,49'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,50'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,51'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,52'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,53'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,54'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,55'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,56'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,57'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,58'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,59'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,60'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,61'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,62'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,63'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,64'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,65'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,66'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,67'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,68'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,69'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,70'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,71'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,72'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,73'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,74'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,75'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,76'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,77'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,78'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,79'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,80'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,81'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,82'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,83'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,84'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,85'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,86'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,87'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,88'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,89'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,90'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,91'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,92'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,93'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,94'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,95'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,96'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,97'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,98'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,99'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,100'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,101'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,102'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,103'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,104'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,105'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,106'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,107'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,108'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,109'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,110'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,111'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,112'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,113'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,114'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,115'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,116'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,117'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,118'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,119'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,120'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,121'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,122'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,123'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,124'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,125'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,126'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,127'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,128'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,129'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,130'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,131'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,132'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,133'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,134'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,135'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,136'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,137'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,138'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,139'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,140'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,141'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,142'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,143'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,144'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,145'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,146'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,147'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,148'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,149'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,150'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,151'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,152'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,153'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,154'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,155'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,156'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,157'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,158'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,159'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,160'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,161'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,162'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,163'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,164'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,165'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,166'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,167'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,168'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,169'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,170'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,171'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,172'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,173'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,174'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,175'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,176'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,177'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,178'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,179'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,180'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,181'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,182'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,183'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,184'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,185'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,186'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,187'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,188'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,189'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,190'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,191'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,192'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,193'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,194'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,195'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,196'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,197'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,198'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,199'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,200'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,201'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,202'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,203'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,204'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,205'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,206'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,207'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-01_bold.nii,208'
+                                                    };
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(1).name = 'FAMOUS';
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(1).onset = [0
+                                                            3.273
+                                                            51.898
+                                                            61.587
+                                                            64.677
+                                                            73.881
+                                                            83.469
+                                                            86.676
+                                                            93.19
+                                                            96.448
+                                                            102.695
+                                                            105.869
+                                                            132.144
+                                                            141.849
+                                                            144.906
+                                                            147.946
+                                                            154.393
+                                                            157.701
+                                                            167.306
+                                                            170.312
+                                                            173.519
+                                                            215.83
+                                                            241.187
+                                                            253.849
+                                                            260.163
+                                                            263.403
+                                                            273.025
+                                                            305.53
+                                                            337.134
+                                                            340.425
+                                                            392.508];
+%%
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(1).duration = [0.908
+                                                               0.962
+                                                               0.974
+                                                               0.862
+                                                               0.869
+                                                               0.983
+                                                               0.94
+                                                               0.813
+                                                               0.997
+                                                               0.869
+                                                               0.933
+                                                               0.818
+                                                               0.98
+                                                               0.868
+                                                               0.832
+                                                               0.897
+                                                               0.978
+                                                               0.984
+                                                               0.83
+                                                               0.992
+                                                               0.942
+                                                               0.863
+                                                               0.922
+                                                               0.921
+                                                               0.969
+                                                               0.892
+                                                               0.896
+                                                               0.88
+                                                               0.967
+                                                               0.946
+                                                               0.957];
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(1).tmod = 0;
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(1).pmod = struct('name', {}, 'param', {}, 'poly', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(1).orth = 1;
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).name = 'UNFAMILIAR';
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).onset = [6.647
+                                                            9.838
+                                                            12.978
+                                                            16.219
+                                                            19.443
+                                                            22.55
+                                                            58.313
+                                                            89.833
+                                                            151.186
+                                                            161.008
+                                                            164.265
+                                                            189.422
+                                                            225.452
+                                                            228.559
+                                                            231.733
+                                                            234.89
+                                                            302.373
+                                                            321.165
+                                                            324.423
+                                                            327.479
+                                                            330.77
+                                                            334.011
+                                                            343.632
+                                                            346.839
+                                                            373.298
+                                                            376.455
+                                                            379.646
+                                                            382.786
+                                                            385.993
+                                                            389.3];
+%%
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).duration = [0.825
+                                                               0.968
+                                                               0.904
+                                                               0.859
+                                                               0.804
+                                                               0.879
+                                                               0.985
+                                                               0.994
+                                                               0.971
+                                                               0.9
+                                                               0.828
+                                                               0.858
+                                                               0.912
+                                                               0.952
+                                                               0.891
+                                                               0.947
+                                                               0.866
+                                                               0.957
+                                                               0.826
+                                                               0.998
+                                                               0.981
+                                                               0.92
+                                                               0.87
+                                                               0.99
+                                                               0.816
+                                                               0.837
+                                                               0.825
+                                                               0.995
+                                                               0.976
+                                                               0.906];
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).tmod = 0;
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).pmod = struct('name', {}, 'param', {}, 'poly', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).orth = 1;
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(3).name = 'SCRAMBLED';
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(3).onset = [25.606
+                                                            28.697
+                                                            55.173
+                                                            67.75
+                                                            70.774
+                                                            77.105
+                                                            80.445
+                                                            99.655
+                                                            108.942
+                                                            135.351
+                                                            138.541
+                                                            176.777
+                                                            179.984
+                                                            183.058
+                                                            186.365
+                                                            212.623
+                                                            218.937
+                                                            222.178
+                                                            238.164
+                                                            244.478
+                                                            247.668
+                                                            250.825
+                                                            257.072
+                                                            266.627
+                                                            269.901
+                                                            296.109
+                                                            299.233
+                                                            308.588
+                                                            311.594
+                                                            314.784
+                                                            318.008
+                                                            350.146];
+%%
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(3).duration = [0.866
+                                                               0.884
+                                                               0.925
+                                                               0.804
+                                                               0.873
+                                                               0.998
+                                                               0.833
+                                                               0.821
+                                                               0.925
+                                                               0.833
+                                                               0.999
+                                                               0.874
+                                                               0.845
+                                                               0.981
+                                                               0.88
+                                                               0.873
+                                                               0.984
+                                                               0.873
+                                                               0.824
+                                                               0.941
+                                                               0.857
+                                                               0.813
+                                                               0.903
+                                                               0.95
+                                                               0.935
+                                                               0.895
+                                                               0.908
+                                                               0.821
+                                                               0.873
+                                                               0.967
+                                                               0.913
+                                                               0.937];
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(3).tmod = 0;
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(3).pmod = struct('name', {}, 'param', {}, 'poly', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(3).orth = 1;
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).multi = {''};
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).regress = struct('name', {}, 'val', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).multi_reg = {'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\rp_sub-01_ses-mri_task-facerecognition_run-01_bold.txt'};
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).hpf = 128;
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).scans = {
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,1'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,2'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,3'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,4'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,5'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,6'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,7'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,8'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,9'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,10'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,11'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,12'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,13'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,14'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,15'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,16'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,17'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,18'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,19'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,20'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,21'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,22'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,23'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,24'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,25'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,26'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,27'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,28'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,29'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,30'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,31'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,32'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,33'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,34'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,35'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,36'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,37'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,38'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,39'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,40'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,41'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,42'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,43'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,44'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,45'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,46'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,47'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,48'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,49'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,50'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,51'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,52'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,53'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,54'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,55'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,56'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,57'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,58'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,59'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,60'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,61'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,62'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,63'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,64'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,65'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,66'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,67'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,68'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,69'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,70'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,71'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,72'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,73'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,74'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,75'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,76'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,77'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,78'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,79'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,80'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,81'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,82'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,83'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,84'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,85'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,86'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,87'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,88'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,89'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,90'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,91'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,92'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,93'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,94'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,95'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,96'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,97'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,98'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,99'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,100'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,101'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,102'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,103'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,104'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,105'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,106'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,107'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,108'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,109'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,110'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,111'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,112'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,113'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,114'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,115'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,116'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,117'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,118'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,119'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,120'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,121'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,122'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,123'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,124'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,125'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,126'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,127'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,128'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,129'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,130'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,131'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,132'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,133'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,134'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,135'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,136'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,137'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,138'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,139'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,140'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,141'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,142'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,143'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,144'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,145'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,146'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,147'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,148'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,149'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,150'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,151'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,152'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,153'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,154'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,155'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,156'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,157'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,158'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,159'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,160'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,161'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,162'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,163'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,164'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,165'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,166'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,167'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,168'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,169'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,170'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,171'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,172'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,173'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,174'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,175'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,176'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,177'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,178'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,179'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,180'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,181'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,182'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,183'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,184'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,185'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,186'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,187'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,188'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,189'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,190'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,191'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,192'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,193'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,194'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,195'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,196'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,197'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,198'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,199'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,200'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,201'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,202'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,203'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,204'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,205'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,206'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,207'
+                                                    'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\swausub-01_ses-mri_task-facerecognition_run-02_bold.nii,208'
+                                                    };
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(1).name = 'FAMOUS';
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(1).onset = [15.586
+                                                            24.906
+                                                            48.024
+                                                            63.943
+                                                            73.33
+                                                            76.521
+                                                            79.578
+                                                            82.651
+                                                            85.674
+                                                            98.553
+                                                            128.036
+                                                            131.059
+                                                            149.918
+                                                            162.696
+                                                            172.217
+                                                            175.458
+                                                            221.377
+                                                            227.457
+                                                            230.564
+                                                            233.788
+                                                            240.035
+                                                            243.192
+                                                            255.737
+                                                            258.877
+                                                            298.115
+                                                            301.171
+                                                            304.429
+                                                            307.536
+                                                            310.542
+                                                            313.716
+                                                            377.976];
+%%
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(1).duration = [0.969
+                                                               0.826
+                                                               0.893
+                                                               0.875
+                                                               0.849
+                                                               0.818
+                                                               0.874
+                                                               0.832
+                                                               0.992
+                                                               0.813
+                                                               0.818
+                                                               0.995
+                                                               0.914
+                                                               0.85
+                                                               0.896
+                                                               0.992
+                                                               0.802
+                                                               0.885
+                                                               0.979
+                                                               0.818
+                                                               0.947
+                                                               0.922
+                                                               0.922
+                                                               0.998
+                                                               0.84
+                                                               0.905
+                                                               0.854
+                                                               0.832
+                                                               0.989
+                                                               0.82
+                                                               0.85];
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(1).tmod = 0;
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(1).pmod = struct('name', {}, 'param', {}, 'poly', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(1).orth = 1;
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(2).name = 'UNFAMILIAR';
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(2).onset = [0
+                                                            3.04
+                                                            6.214
+                                                            9.321
+                                                            12.394
+                                                            18.725
+                                                            21.866
+                                                            51.164
+                                                            54.221
+                                                            95.363
+                                                            134.266
+                                                            137.44
+                                                            153.141
+                                                            156.365
+                                                            159.506
+                                                            165.854
+                                                            168.943
+                                                            182.089
+                                                            191.711
+                                                            236.878
+                                                            316.79
+                                                            320.03
+                                                            326.411
+                                                            329.501
+                                                            335.732
+                                                            338.889
+                                                            345.136
+                                                            348.326
+                                                            371.528
+                                                            374.769];
+%%
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(2).duration = [0.839
+                                                               0.812
+                                                               0.883
+                                                               0.866
+                                                               0.929
+                                                               0.919
+                                                               0.803
+                                                               0.868
+                                                               0.93
+                                                               0.913
+                                                               0.902
+                                                               0.831
+                                                               0.858
+                                                               0.81
+                                                               0.84
+                                                               0.841
+                                                               0.964
+                                                               0.984
+                                                               0.949
+                                                               0.918
+                                                               0.953
+                                                               0.998
+                                                               0.88
+                                                               0.88
+                                                               0.813
+                                                               0.809
+                                                               0.95
+                                                               0.843
+                                                               0.959
+                                                               0.928];
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(2).tmod = 0;
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(2).pmod = struct('name', {}, 'param', {}, 'poly', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(2).orth = 1;
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(3).name = 'SCRAMBLED';
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(3).onset = [57.411
+                                                            60.635
+                                                            67.016
+                                                            70.29
+                                                            88.865
+                                                            92.189
+                                                            101.56
+                                                            104.817
+                                                            140.463
+                                                            143.637
+                                                            146.694
+                                                            178.799
+                                                            185.263
+                                                            188.537
+                                                            215.013
+                                                            218.221
+                                                            224.35
+                                                            246.332
+                                                            249.406
+                                                            252.647
+                                                            262.101
+                                                            265.191
+                                                            268.332
+                                                            291.65
+                                                            294.974
+                                                            323.337
+                                                            332.625
+                                                            341.996
+                                                            380.999
+                                                            384.14
+                                                            387.397];
+%%
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(3).duration = [0.938
+                                                               0.967
+                                                               0.978
+                                                               0.853
+                                                               0.967
+                                                               0.829
+                                                               0.987
+                                                               0.971
+                                                               0.839
+                                                               0.855
+                                                               0.945
+                                                               0.973
+                                                               0.905
+                                                               0.838
+                                                               0.989
+                                                               0.968
+                                                               0.863
+                                                               0.818
+                                                               0.956
+                                                               0.805
+                                                               0.88
+                                                               0.886
+                                                               0.946
+                                                               0.982
+                                                               0.807
+                                                               0.841
+                                                               0.876
+                                                               0.807
+                                                               0.825
+                                                               0.995
+                                                               0.822];
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(3).tmod = 0;
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(3).pmod = struct('name', {}, 'param', {}, 'poly', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(3).orth = 1;
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).multi = {''};
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).regress = struct('name', {}, 'val', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).multi_reg = {'C:\Users\ti75iriz\Documents\MATLAB\ds000117\data\sub-01\func\rp_sub-01_ses-mri_task-facerecognition_run-02_bold.txt'};
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).hpf = 128;
+matlabbatch{1}.spm.stats.fmri_spec.fact = struct('name', {}, 'levels', {});
+matlabbatch{1}.spm.stats.fmri_spec.bases.hrf.derivs = [0 0];
+matlabbatch{1}.spm.stats.fmri_spec.volt = 1;
+matlabbatch{1}.spm.stats.fmri_spec.global = 'None';
+matlabbatch{1}.spm.stats.fmri_spec.mthresh = 0.1;
+matlabbatch{1}.spm.stats.fmri_spec.mask = {''};
+matlabbatch{1}.spm.stats.fmri_spec.cvi = 'AR(1)';
+matlabbatch{2}.spm.stats.fmri_est.spmmat(1) = cfg_dep('fMRI model specification: SPM.mat File', substruct('.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
+matlabbatch{2}.spm.stats.fmri_est.write_residuals = 0;
+matlabbatch{2}.spm.stats.fmri_est.method.Classical = 1;
+matlabbatch{3}.spm.stats.con.spmmat(1) = cfg_dep('Model estimation: SPM.mat File', substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
+matlabbatch{3}.spm.stats.con.consess{1}.tcon.name = 'FAMOUS > UNFAMILIAR';
+matlabbatch{3}.spm.stats.con.consess{1}.tcon.weights = [1 -1 0];
+matlabbatch{3}.spm.stats.con.consess{1}.tcon.sessrep = 'repl';
+matlabbatch{3}.spm.stats.con.consess{2}.tcon.name = 'FACES > SCRAMBLED';
+matlabbatch{3}.spm.stats.con.consess{2}.tcon.weights = [0.5 0.5 -1];
+matlabbatch{3}.spm.stats.con.consess{2}.tcon.sessrep = 'repl';
+matlabbatch{3}.spm.stats.con.consess{3}.tcon.name = 'FACES > REST';
+matlabbatch{3}.spm.stats.con.consess{3}.tcon.weights = [0.5 0.5 0];
+matlabbatch{3}.spm.stats.con.consess{3}.tcon.sessrep = 'repl';
+matlabbatch{3}.spm.stats.con.consess{4}.tcon.name = 'SCRAMBLED > REST';
+matlabbatch{3}.spm.stats.con.consess{4}.tcon.weights = [0 0 1];
+matlabbatch{3}.spm.stats.con.consess{4}.tcon.sessrep = 'repl';
+matlabbatch{3}.spm.stats.con.delete = 0;
+matlabbatch{4}.spm.stats.results.spmmat(1) = cfg_dep('Contrast Manager: SPM.mat File', substruct('.','val', '{}',{3}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
+matlabbatch{4}.spm.stats.results.conspec.titlestr = '';
+matlabbatch{4}.spm.stats.results.conspec.contrasts = Inf;
+matlabbatch{4}.spm.stats.results.conspec.threshdesc = 'none';
+matlabbatch{4}.spm.stats.results.conspec.thresh = 0.001;
+matlabbatch{4}.spm.stats.results.conspec.extent = 10;
+matlabbatch{4}.spm.stats.results.conspec.conjunction = 1;
+matlabbatch{4}.spm.stats.results.conspec.mask.none = 1;
+matlabbatch{4}.spm.stats.results.units = 1;
+matlabbatch{4}.spm.stats.results.export = cell(1, 0);
