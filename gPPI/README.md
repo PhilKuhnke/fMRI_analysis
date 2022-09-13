@@ -3,6 +3,8 @@ This folder contains Matlab code to perform a generalized psychophysiological in
 
 This requires the [gPPI toolbox](https://www.nitrc.org/projects/gppi) (McLaren et al. 2012). This folder contains toolbox version 13.1 (2014-04-24; latest version as of 2020-12-14), adapted to work with SPM12. I recommend you download it here, unless a newer version has been released.
 
+**If you use this code for your own PPI analysis, please cite our paper: Kuhnke, P., Kiefer, M., & Hartwigsen, G. (2021). Task-Dependent Functional and Effective Connectivity during Conceptual Processing. Cerebral Cortex, 31(7), 3475–3493. https://doi.org/10.1093/cercor/bhab026**
+
 ### A typical gPPI analysis follows this workflow:
 1. **Create a task-GLM for each participant** (you will typically have this already from your participant-level activation analyses).
 2. **Create seed ROIs**: different options are
