@@ -25,6 +25,10 @@ Whereas voxel-wise correction controls the propotion/probability of false positi
 The most classical form of cluster-wise correction is based on cluster extent (number of voxels in a cluster). It involves defining a primary voxel-level threshold (e.g. p < 0.001 uncorrected) and a cluster-level threshold (e.g. p < 0.05 FWE). For the voxel-level threshold, the appropriate cluster extent threshold is calculated (e.g. 56 voxels), which depends on the data. Only clusters that are larger than the cluster extent threshold "survive", i.e. are called significant. 
 More recent methods combine the advantages of voxel and cluster-wise correction (e.g. cluster mass inference; threshold-free cluster enhancement or TFCE). 
 
+If you use this code, please cite the following paper:
+
+*Kuhnke, P., Kiefer, M., Hartwigsen, G., 2020. Task-Dependent Recruitment of Modality-Specific and Multimodal Regions during Conceptual Processing. Cereb. Cortex 30, 3938–3959. https://doi.org/10.1093/cercor/bhaa010*
+
 ---
 created by Philipp Kuhnke (2022)
 
