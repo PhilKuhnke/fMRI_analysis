@@ -22,5 +22,9 @@ These can be used in first-level GLM specification (under "Multiple conditions")
 The script assumes that events.tsv files following the BIDS format (https://bids.neuroimaging.io/) have already been created and are stored in each subject's functional folder.
 - *first_level_script.m* performs a first-level GLM analysis for each subject. The script assumes that you have already created condition .mat files and that your data are in BIDS format.
 
+If you use this code, please cite the following paper:
+
+*Kuhnke, P., Kiefer, M., Hartwigsen, G., 2020. Task-Dependent Recruitment of Modality-Specific and Multimodal Regions during Conceptual Processing. Cereb. Cortex 30, 3938–3959. https://doi.org/10.1093/cercor/bhaa010*
+
 ---
 created by Philipp Kuhnke (2022)
