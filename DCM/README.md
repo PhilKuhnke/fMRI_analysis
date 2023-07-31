@@ -25,6 +25,9 @@ For a tutorial overview, see [Zeidman et al. (2019a)](https://www.sciencedirect.
         * compute Hz change (resulting connection strength) after modulation
         * compute Bayesian contrasts between parameters (e.g. Is connection X modulated more strongly by parameter A or B?)
 
+If you use this code, please cite the following paper:
+
+*Kuhnke, P., Kiefer, M., Hartwigsen, G., 2021. Task-Dependent Functional and Effective Connectivity during Conceptual Processing. Cereb. Cortex 31, 3475–3493. https://doi.org/10.1093/cercor/bhab026*
 
 ---
 created by Philipp Kuhnke (2020)
