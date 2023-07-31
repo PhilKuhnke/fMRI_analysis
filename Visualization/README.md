@@ -35,7 +35,7 @@ Programs include:
 ### Surface Projections
 Surface projections interpolate the activity clusters to the cortical surface. This is often the clearest form of visualization and therefore my personal preference. 
 Programs include:
-- [mni2fs (Matlab)](https://gitlab.gwdg.de/cognition-and-plasticity-cbs-mpi/copla-internals/-/blob/master/code/fMRI_analysis/Visualization/mni2fs.zip)
+- [mni2fs (Matlab)](https://github.com/PhilKuhnke/fMRI_analysis/blob/main/Visualization/mni2fs.zip)
 - [nilearn (Python)](https://nilearn.github.io/dev/plotting/index.html)
 - [pycortex (Python)](https://github.com/gallantlab/pycortex)
 - [BrainNet Viewer (Matlab)](https://www.nitrc.org/projects/bnv/)
